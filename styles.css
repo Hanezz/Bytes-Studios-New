@@ -1,0 +1,67 @@
+.header{
+    font-family: Poppins, sans-serif;
+    background-color: rgb(27, 27, 27);
+    padding: 80px;
+}
+
+.logo{
+    height: 75px;
+    width: 85px;
+    position: absolute;
+    left: 140px;
+    top: 30px;
+}
+
+.title{
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+}
+
+.nav{
+    padding-top: 25px;
+}
+
+.separator{
+    border: none;
+    height: 6px;
+    color: black; 
+    background-color: black;
+}
+
+.btn1{
+    color: #009DFF;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 70px;
+    border-color: #009DFF;
+    border: solid;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.btn1:hover{
+    color: white;
+    background-color: #009DFF;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    width: 70px;
+    border-color: #009DFF;
+    border-radius: 20px;
+}
+
+.btn1-link:link, :hover, :visited, :active{
+    color:#009DFF;
+    text-decoration: none;
+}
+
+.btn1-link:hover{
+    color:white;
+}
